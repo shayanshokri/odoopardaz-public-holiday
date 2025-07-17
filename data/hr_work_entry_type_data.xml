@@ -4,7 +4,6 @@
             <field name="name">IR: Public Holiday</field>
             <field name="color">4</field>
             <field name="code">IRPH</field>
-            <field name="country_id" ref="base.ir"/>
         </record>
     </data>
 </odoo>
