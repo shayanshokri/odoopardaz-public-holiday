@@ -1,0 +1,220 @@
+<odoo>
+    <data>
+        <record id="resource_public_time_off_2" model="resource.calendar.leaves">
+            <field name="name">عید نوروز</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 3, 20, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 3, 21, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_3" model="resource.calendar.leaves">
+            <field name="name">عید نوروز</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 3, 21, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 3, 22, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_4" model="resource.calendar.leaves">
+            <field name="name">عید نوروز</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 3, 22, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 3, 23, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_5" model="resource.calendar.leaves">
+            <field name="name">عید نوروز</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 3, 23, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 3, 24, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_6" model="resource.calendar.leaves">
+            <field name="name">عید سعید فطر</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 3, 30, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 3, 31, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_7" model="resource.calendar.leaves">
+            <field name="name">عید سعید فطر</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 3, 31, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 4, 1, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_8" model="resource.calendar.leaves">
+            <field name="name">روز طبیعت</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 4, 1, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 4, 2, 21, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_9" model="resource.calendar.leaves">
+            <field name="name">شهادت امام جعفر صادق (ع)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 4, 23, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 4, 24, 21, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_10" model="resource.calendar.leaves">
+            <field name="name">رحلت امام خمینی (ره)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 6, 3, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 6, 4, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_11" model="resource.calendar.leaves">
+            <field name="name">قیام خونین 15 خرداد</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 6, 4, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 6, 5, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_12" model="resource.calendar.leaves">
+            <field name="name">عید سعید قربان</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 6, 5, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 6, 6, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_13" model="resource.calendar.leaves">
+            <field name="name">عید سعید غدیرخم</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 6, 13, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 6, 14, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_14" model="resource.calendar.leaves">
+            <field name="name">تاسوعا حسینی</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 7, 4, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 7, 5, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_15" model="resource.calendar.leaves">
+            <field name="name">عاشورا حسینی</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+           <field name="date_from" eval="datetime(2025, 7, 5, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 7, 6, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_27" model="resource.calendar.leaves">
+            <field name="name">اربعین حسینی</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2025, 8, 13, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 8, 14, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_16" model="resource.calendar.leaves">
+            <field name="name">شهادت رسول اکرم (ص)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2025, 8, 21, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 8, 22, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_17" model="resource.calendar.leaves">
+            <field name="name">شهادت امام رضا (ع)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2025, 8, 23, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 8, 24, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_18" model="resource.calendar.leaves">
+            <field name="name">شهادت امام حسن عسکری (ع)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2025, 8, 31, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 9, 1, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_19" model="resource.calendar.leaves">
+            <field name="name">ولادت رسول اکرم (ص)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2025, 9, 9, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 9, 10, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_20" model="resource.calendar.leaves">
+            <field name="name">شهادت حضرت فاطمه زهرا (س)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2025, 11, 23, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2025, 11, 24, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_21" model="resource.calendar.leaves">
+            <field name="name">ولادت حضرت علی (ع)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2026, 1, 2, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2026, 1, 3, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_22" model="resource.calendar.leaves">
+            <field name="name">مبعث رسول اکرم (ص)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2026, 1, 16, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2026, 1, 17, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_23" model="resource.calendar.leaves">
+            <field name="name">ولادت امام زمان (عج)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2026, 2, 3, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2026, 2, 4, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_24" model="resource.calendar.leaves">
+            <field name="name">پیروزی انقلاب اسلامی</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2026, 2, 10, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2026, 2, 11, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_25" model="resource.calendar.leaves">
+            <field name="name">شهادت حضرت علی (ع)</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2026, 3, 10, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2026, 3, 11, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_26" model="resource.calendar.leaves">
+            <field name="name">روز ملی شدن صنعت نفت ایران</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2026, 3, 19, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2026, 3, 20, 20, 29, 59)"/>
+        </record>
+        <record id="resource_public_time_off_28" model="resource.calendar.leaves">
+            <field name="name">روز جهانی کارگر</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="calendar_id" ref="resource.resource_calendar_std"/>
+            <field name="work_entry_type_id" ref="odoopardaz_public_holiday.iran_public_holiday_entry_type"/>
+            <field name="date_from" eval="datetime(2026, 4, 30, 20, 30, 0)"/>
+            <field name="date_to" eval="datetime(2026, 5, 1, 20, 29, 59)"/>
+        </record>
+    </data>
+</odoo>

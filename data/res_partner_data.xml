@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+        <record id="odoopardaz_contact" model="res.partner">
+            <field name="name">OdooPardaz</field>
+            <field name="is_company">1</field>
+            <field name="country_id" ref="base.ir"/>
+            <field name="email">info@odoopardaz.ir</field>
+            <field name="phone">09225131091</field>
+            <field name="website">http://www.odoopardaz.ir/</field>
+            <field name="image_1920" type="base64" file="odoopardaz_public_holiday/static/img/odoopardaz.png"/>
+        </record>
+    </data>
+</odoo>

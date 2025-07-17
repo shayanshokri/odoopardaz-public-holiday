@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+        <record id="iran_public_holiday_entry_type" model="hr.work.entry.type">
+            <field name="name">IR: Public Holiday</field>
+            <field name="color">4</field>
+            <field name="code">IRPH</field>
+            <field name="country_id" ref="base.ir"/>
+        </record>
+    </data>
+</odoo>
+
